@@ -1,40 +1,40 @@
 {
-  "name": "stylint-json-reporter",
-  "version": "0.3.1",
-  "description": "JSON formatted reporter for Stylint",
-  "license": "MIT",
-  "author": "Wojciech Czerniak <wojciech.czerniak@gmail.com>",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "clean": "rimraf coverage/",
-    "pretest": "npm run clean",
-    "test": "./node_modules/.bin/istanbul cover -x test.js ./node_modules/mocha/bin/_mocha test.js -- -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sertae/stylint-json-reporter"
-  },
-  "keywords": [
-    "lint",
-    "reporter",
-    "stylint",
-    "stylint-reporter",
-    "json",
-    "stylus"
-  ],
-  "bugs": {
-    "url": "https://github.com/sertae/stylint-json-reporter/issues"
-  },
-  "homepage": "https://github.com/sertae/stylint-json-reporter#readme",
-  "devDependencies": {
-    "rimraf": "^2.5.2",
-    "lodash.clonedeep": "^4.0.4",
-    "stylint": "^1.3.6",
-    "istanbul": "0.4.2",
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
-  }
+    "name": "stylint-json",
+    "version": "0.3.1",
+    "description": "JSON reporter for Stylint",
+    "license": "MIT",
+    "author": "Egor Zaitsev <heuels@gmail.com>",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "clean": "rimraf coverage/",
+        "pretest": "npm run clean",
+        "test": "./node_modules/.bin/istanbul cover -x test.js ./node_modules/mocha/bin/_mocha test.js -- -R spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heuels/stylint-json"
+    },
+    "keywords": [
+        "lint",
+        "reporter",
+        "stylint",
+        "stylint-reporter",
+        "json",
+        "stylus"
+    ],
+    "bugs": {
+        "url": "https://github.com/heuels/stylint-json/issues"
+    },
+    "homepage": "https://github.com/heuels/stylint-json#readme",
+    "devDependencies": {
+        "rimraf": "^2.5.2",
+        "lodash.clonedeep": "^4.0.4",
+        "stylint": "^1.3.6",
+        "istanbul": "0.4.2",
+        "chai": "^3.5.0",
+        "mocha": "^2.4.5"
+    }
 }
